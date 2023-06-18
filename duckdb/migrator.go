@@ -31,6 +31,7 @@ var typeAliasMap = map[string][]string{
 	"bpchar":    {"varchar"},
 	"text":      {"varchar"},
 	"string":    {"varchar"},
+	"json":      {"json"},
 }
 
 func (m Migrator) GetTypeAliases(databaseTypeName string) []string {
